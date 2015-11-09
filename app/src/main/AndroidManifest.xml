@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e223_22.hotel" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Reservation"
+            android:label="@string/title_activity_reservation"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.e223_22.hotel.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Sluzby"
+            android:label="@string/title_activity_sluzby"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.e223_22.hotel.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Pokoje"
+            android:label="@string/title_activity_pokoje"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.e223_22.hotel.MainActivity" />
+        </activity>
+        <activity
+            android:name=".oHotelu"
+            android:label="@string/title_activity_o_hotelu"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.e223_22.hotel.MainActivity" />
+        </activity>
+        <activity
+            android:name=".kontakt"
+            android:label="@string/title_activity_kontakt"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.e223_22.hotel.MainActivity" />
+        </activity>
+        <activity
+            android:name=".obycejne"
+            android:label="@string/title_activity_obycejne"
+            android:parentActivityName=".Pokoje" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.e223_22.hotel.Pokoje" />
+        </activity>
+        <activity
+            android:name=".luxusni"
+            android:label="@string/title_activity_luxusni"
+            android:parentActivityName=".Pokoje" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.e223_22.hotel.Pokoje" />
+        </activity>
+    </application>
+
+</manifest>

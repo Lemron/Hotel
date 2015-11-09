@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reservation">Rezervace</string>
+    <string name="name">Jméno</string>
+    <string name="address">Adresa</string>
+    <string name="phone">Telefon</string>
+    <string name="email">email</string>
+    <string name="days">dní</string>
+    <string name="breakfast">Snídaně</string>
+    <string name="send">odeslat</string>
+    <string name="reset">reset</string>
+    <string name="nameValidation">Zadejte jméno</string>
+    <string name="phoneValidation">Zadejte telefon</string>
+    <string name="emailValidation">Zadejte email</string>
+</resources>
